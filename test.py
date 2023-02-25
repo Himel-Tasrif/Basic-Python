@@ -1,7 +1,16 @@
-j=1;
-i=1;
-while(i<=10):
-    j *= i
-    i+=1
-    #print('The factorial number of 10 is: {}'.format(j))
-print("The Factorial number of 10 is: {}".format(j))
+# Formating String
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a>b:
+    if a>c:
+        print("The Bigest number is ",a)
+    else:
+        print("The Bigest number is ",c) 
+
+elif b>a:
+    if b>c:
+        print("The Bigest number is ",b) 
+    else:
+        print("The Bigest number is ",c)                   
