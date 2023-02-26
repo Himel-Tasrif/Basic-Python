@@ -1,16 +1,7 @@
-# Formating String
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
+#vowel a,e,i,o,u
 
-if a>b:
-    if a>c:
-        print("The Bigest number is ",a)
-    else:
-        print("The Bigest number is ",c) 
-
-elif b>a:
-    if b>c:
-        print("The Bigest number is ",b) 
-    else:
-        print("The Bigest number is ",c)                   
+ch = input("Enter a letter: ")
+if ch =='a' or ch =='e' or ch =='i' or ch =='o' or ch =='u':
+    print("Vowel")
+else:
+    print("Consonent")
